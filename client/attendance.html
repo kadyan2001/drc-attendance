@@ -16,7 +16,7 @@
       <ul>
         <li>
           <a href="#" class="logo">
-            <img src="./Images/logo.png">
+            <img src="/client/logo.png">
             <span id="profileName" class="nav-item">Admin</span>
           </a>
         </li>
@@ -31,6 +31,13 @@
         <li><a href="script.html">
             <i class="fas fa-chart-bar"></i>
             <span id="attendanceButton" class="nav-item">Attendance</span>
+          </a></li>
+
+          <li><a href="leave.html">
+            <!-- <i class="fa-solid fa-house-person-leave"></i> -->
+            <i class="fas fa-home"></i>
+
+            <span id="attendanceButton" class="nav-item">Leave Request</span>
           </a></li>
         <li class="settingListItem"><a href="setting.html">
             <i class="fas fa-cog"></i>
@@ -63,7 +70,7 @@
         card.classList.add('card');
 
         const img = document.createElement('img');
-        img.src = "/client/Images/emp.png";
+        img.src = "/client/emp.png";
         img.alt = user.name;
 
         const h4 = document.createElement('h4');
