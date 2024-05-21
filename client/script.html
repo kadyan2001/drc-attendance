@@ -104,7 +104,7 @@
           token: sessionStorage.getItem("token"),
         },
       };
-      await fetch(`http://localhost:8080/api/attendence/get-all`, options)
+      await fetch(`https://drc-attendance-client.vercel.app/api/attendence/get-all`, options)
         .then(async (response) => {
           const responseInfo = await response.json();
           if (response.status === 200) {
