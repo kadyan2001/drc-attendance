@@ -38,7 +38,7 @@
                     'Content-Type': 'application/json',
                 }, body: JSON.stringify({ "user_id": employeeId, password })
             };
-            await fetch(`https://drc-attendance-client.vercel.app/api/auth/login`, options)
+            await fetch(`http://localhost:8080/api/auth/login`, options)
                 .then(async (response) => {
                     const responseInfo = await response.json()
                     if (response.status === 200) {
