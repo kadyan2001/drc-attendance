@@ -92,7 +92,7 @@
                     'Content-Type': 'application/json',
                 }, body: JSON.stringify({ "user_id": employeeId, team: employeeTeam, name: employeeName, email: employeeEmail, "password": password, "role": "user" })
             };
-            await fetch(`http://localhost:8080/api/auth/signup`, options)
+            await fetch(`https://attendences-backend.onrender.com/api/auth/signup`, options)
                 .then(async (response) => {
                     const responseInfo = await response.json()
                     if (response.status === 200) {
