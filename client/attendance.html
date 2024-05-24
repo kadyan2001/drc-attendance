@@ -16,7 +16,7 @@
       <ul>
         <li>
           <a href="#" class="logo">
-            <img src="/client/logo.png">
+            <img src="/client/Images/logo.png">
             <span id="profileName" class="nav-item">Admin</span>
           </a>
         </li>
@@ -70,7 +70,7 @@
         card.classList.add('card');
 
         const img = document.createElement('img');
-        img.src = "/client/emp.png";
+        img.src = "/client/Images/emp.png";
         img.alt = user.name;
 
         const h4 = document.createElement('h4');
@@ -113,7 +113,7 @@
         }
       };
       try {
-        const response = await fetch(`http://localhost:8080/api/auth/get`, options);
+        const response = await fetch(`https://attendences-backend.onrender.com/api/auth/get`, options);
         const responseInfo = await response.json();
         if (response.status === 200) {
           if (responseInfo?.role !== 'admin') {

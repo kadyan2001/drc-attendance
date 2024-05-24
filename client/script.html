@@ -13,7 +13,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-image: url(/client/attende1.jpg);
+      background-image: url(/client/Images/attende1.jpg);
       background-size: 100%;
       margin: 0;
       padding: 0;
@@ -159,7 +159,7 @@
         },
         body: JSON.stringify({ user_id: sessionStorage.getItem("user_id"), status: "present" }),
       };
-      await fetch(`http://localhost:8080/api/attendence/add`, options)
+      await fetch(`https://attendences-backend.onrender.com/api/attendence/add`, options)
         .then(async (response) => {
           const responseInfo = await response.json();
           const utcDate = new Date(responseInfo?.createdAt);

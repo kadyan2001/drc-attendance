@@ -10,7 +10,7 @@
 }
 
 body {
-  background-image: url(/client/dashboard.jpg);
+  background-image: url(/client/Images/dashboard.jpg);
   background-size: 100%;
   /* background: rgb(226, 226, 226); */
 }
@@ -317,4 +317,19 @@ table thead tr {
 /* Firefox */
 .scrollbar {
   scrollbar-width: none;
+}
+
+@media (max-width: 768px) {
+  .main-top {
+    flex-direction: column;
+  }
+  .card {
+    flex: 1 0 46%; /* Two cards per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 1 0 100%; /* One card per row */
+  }
 }
