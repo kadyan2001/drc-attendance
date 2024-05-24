@@ -10,7 +10,8 @@
 }
 
 body {
-  background-image: url(/client/Images/dashboard.jpg);
+  /* background-image: url(/client/Images/dashboard.jpg); */
+  background-color: darkorange;
   background-size: 100%;
   /* background: rgb(226, 226, 226); */
 }

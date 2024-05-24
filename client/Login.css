@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     /* background-color: #f0f0f0; */
-    background-image: url(/client/Images/login.jpg);
+    /* background-image: url(/client/Images/login.jpg); */
+    background-color: chocolate;
     background-size: 120%;
     margin: 0;
     padding: 0;
