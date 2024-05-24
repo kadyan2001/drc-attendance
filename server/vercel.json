@@ -8,7 +8,7 @@
     ],
     "routes":[
         {
-            "src":"public/signup.html",
+            "src": "/(.*)",
             "dest":"src/main.ts",
             "methods":[
                 "GET",
