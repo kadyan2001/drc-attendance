@@ -160,6 +160,8 @@ a:hover {
   background: #fff;
   text-align: center;
   border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   padding: 10px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
