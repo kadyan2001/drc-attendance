@@ -5,8 +5,8 @@ body {
     /* background-color: #f2f2f2; */
     margin: 0;
     padding: 0;
-    background-image: url(/client/Images/sign-up.jpg);
-    /* background-color: rgb(255, 255, 155); */
+    /* background-image: url(/client/Images/sign-up.jpg); */
+    background-color: rgb(255, 255, 155);
     background-size: 50%;
 
 }

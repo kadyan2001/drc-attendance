@@ -3,8 +3,8 @@
 
 .main {
     padding: 20px;
-    background-image: url(/client/Images/repo.jpg);
-    /* background-color: aqua; */
+    /* background-image: url(/client/Images/repo.jpg); */
+    background-color: aqua;
     background-size: 100%;
 }
 
