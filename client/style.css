@@ -170,6 +170,10 @@ a:hover {
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
 
+.users .card:hover{
+  background-color: gold;
+}
+
 .users .card img {
   width: 70px;
   height: 70px;
