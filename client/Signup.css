@@ -67,3 +67,60 @@ button[type="submit"]:hover {
 }
 
 /* Add additional styling as needed */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Updated background color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 150px auto;
+    box-shadow: 0px 0px 20px rgba(255, 115, 0, 0.5); /* Updated box shadow */
+    background-color: #ff9472; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Updated heading color */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #fff; /* Updated label color */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Yellow button */
+    color: #333333; /* Updated button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Orange hover color */
+}
