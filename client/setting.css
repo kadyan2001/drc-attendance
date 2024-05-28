@@ -5,7 +5,7 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
     background-size: 100%;
     text-align: center; /* Center the content horizontally */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -50,7 +50,7 @@
 }
 
 .updation form button:hover {
-    background: linear-gradient(135deg, #fc5c7d 0%, #6a82fb 100%);
+    background: linear-gradient(135deg, #fc5c7d 0%, #fcb69f 100%);
 }
 
 /* Styling the form */
@@ -82,7 +82,7 @@
 #updateForm button {
     width: 100%;
     padding: 10px;
-    background: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+    background: linear-gradient(135deg, #36d1dc 0%, #fcb69f 100%);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -91,7 +91,7 @@
 }
 
 #updateForm button:hover {
-    background: linear-gradient(135deg, #5b86e5 0%, #36d1dc 100%);
+    background: linear-gradient(135deg, #fcb69f 0%, #36d1dc 100%);
 }
 
 /* Styling the heading */
