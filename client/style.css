@@ -290,7 +290,8 @@ a:hover {
 }
 
 .users .card:hover {
-  background-color: #007bff;
+  /* background-color: #007bff; */
+  background-color: #6a0dad;
   transform: translateY(-10px); /* Lift the card on hover */
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
   color: #fff; /* Change text color on hover */
